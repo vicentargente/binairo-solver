@@ -1,0 +1,19 @@
+{
+  "name": "binairo-solver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "wasm-pack build ./rust-solver --target web --out-dir ../docs/pkg",
+    "serve": "http-server ./docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

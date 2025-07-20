@@ -1,0 +1,10 @@
+#Rust
+/rust-solver/target/
+/rust-solver/Cargo.lock
+*:Zone.Identifier
+
+# Node
+/node_modules/
+
+# Wasm output
+/docs/pkg/
