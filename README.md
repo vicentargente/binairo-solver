@@ -26,7 +26,7 @@ The build process compiles the Rust solver into a WebAssembly package that the w
 
 1.  **Clone the repository**:
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/vicentargente/binairo-solver.git
     cd binairo-solver
     ```
 2.  **Build the WebAssembly package**:
